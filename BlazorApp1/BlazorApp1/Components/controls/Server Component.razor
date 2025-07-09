@@ -1,0 +1,19 @@
+﻿
+<div data-name="@server.Name" 
+	data-ststus="server is @(server.IsOnline ? "Online" : "Offline")"
+	style="@( $"color:{(server.IsOnline?"green":"red")}")">
+
+	@server.Name is in @server.City that is @(server.IsOnline ? "Online" : "Offline")
+
+</div>
+
+@code {
+	
+
+	private ServerData server = new ServerData
+	{
+		Name = "Server 1",
+		City = "Toronto"
+	};
+
+}

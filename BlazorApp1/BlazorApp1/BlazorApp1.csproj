@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\NewFolder1\**" />
+    <Compile Remove="Components\NewFolder2\**" />
+    <Compile Remove="Components\NewFolder3\**" />
+    <Compile Remove="Components\NewFolder\**" />
+    <Content Remove="Components\NewFolder1\**" />
+    <Content Remove="Components\NewFolder2\**" />
+    <Content Remove="Components\NewFolder3\**" />
+    <Content Remove="Components\NewFolder\**" />
+    <EmbeddedResource Remove="Components\NewFolder1\**" />
+    <EmbeddedResource Remove="Components\NewFolder2\**" />
+    <EmbeddedResource Remove="Components\NewFolder3\**" />
+    <EmbeddedResource Remove="Components\NewFolder\**" />
+    <None Remove="Components\NewFolder1\**" />
+    <None Remove="Components\NewFolder2\**" />
+    <None Remove="Components\NewFolder3\**" />
+    <None Remove="Components\NewFolder\**" />
+  </ItemGroup>
+
+</Project>
